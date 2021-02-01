@@ -13,9 +13,9 @@ public class OrderDao {
     public List<Order> getOrders() {
         return Stream.of(
                 new Order(101, "Gilardoni", 1, 30000),
-                new Order(58, "Book", 4, 2000),
-                new Order(205, "Laptop", 1, 150000),
-                new Order(102, "Jaraheadset", 1, 1799))
+                new Order(102, "jara", 4, 2000),
+                new Order(103, "marcelo", 1, 150000),
+                new Order(104, "ezequiel", 1, 1799))
                 .collect(Collectors.toList());
     }
 }
